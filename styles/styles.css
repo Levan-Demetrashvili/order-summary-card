@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('/styles/variables.css');
+
+/*! global styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+body {
+    background-color: #E0E8FF;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-inline: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mobile {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.cover .desktop {
+    display: none;
+}
+
+main {
+    max-width: 450px; 
+    min-width: 250px;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+   
+}
+
+/* ? illustration styles  */
+.illustration {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/*?  article styles */
+
+article {
+    margin-top: 32px;
+    text-align: center;
+    padding-inline: 32px;
+}
+article > h1 {
+    font-size: var(--h1);
+    color: var(--black);
+    font-weight: 900;
+}
+article > p {
+    font-size: var(--medium);
+    color: var(--grey);
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 16px;
+}
+
+/*?  subscription styles */
+
+.subscription-container-mask { 
+    width: 100%;
+    margin-block: 24px;
+    padding-inline: 24px;
+    box-sizing: border-box;
+    
+}
+.subscription-container {
+    width: 100%;
+    background-color: var(--subscription-bg);
+
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 11px;   
+   
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.subscription-icon {
+    display: flex;
+}
+
+.subscription-container .subscription-price {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.subscription-container .subscription-price h2 {
+    color: var(--black);
+    font-size: var(--price);
+    font-weight: 900;
+}
+
+.subscription-container .subscription-price p {
+    color: var(--grey);
+    font-size: var(--price);
+    font-weight: 500;
+}
+
+.subscription-container .subscription-link {
+    margin-left: auto;
+}
+
+
+.subscription-container .subscription-link  a {
+    color: var(--blue);
+    font-size: var(--link);
+    font-weight: 700;
+}
+
+.subscription-container .subscription-link  a:hover {
+    color: var(--anim-blue);
+    text-decoration: none;
+}
+
+/********  btn styles  ******/
+
+button {
+    color: #FFF;
+    font-size: var(--medium);
+    font-weight: 900; 
+    background-color: var(--blue);
+    padding-block: 15px;
+    width: calc(100% - 48px);
+    border-radius: 11px;
+    box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.19);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--anim-blue);
+}
+
+h3 {
+    text-align: center;
+    color: var(--grey);
+    font-size: var(--medium);
+    font-weight: 900;
+    padding: 24px 0 32px 0;
+    cursor: pointer;
+}
+h3:hover {
+    
+    color: var(--black);
+}
