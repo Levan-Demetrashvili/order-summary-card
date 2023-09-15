@@ -15,6 +15,10 @@ this chellenge help me to improve my skills in responsive design
 - mobile-first workflow
 - CSS animations
 
+### Links
+
+- My solution URL - (https://tankistttt.github.io/order-summary-card/)
+- Live URL - (https://github.com/tankistttt/order-summary-card)
 
 ### Useful resources
 
@@ -23,7 +27,7 @@ this chellenge help me to improve my skills in responsive design
 
 ## Author
 
-- Website - [Levan](https://www.your-site.com)
+- Website - [Levan](https://tankistttt.github.io/order-summary-card/)
 - Frontend Mentor - [@tankistttt](https://www.frontendmentor.io/profile/tankistttt)
 
 
